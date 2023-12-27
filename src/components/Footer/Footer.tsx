@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { PageSection } from '../PageSection';
+import * as Icons from '@radix-ui/react-icons';
 
 const Footer = () => {
 
@@ -8,8 +9,7 @@ const Footer = () => {
     {
       label: 'LinkedIn',
       url: 'https://...',
-      // @TODO: Replace with Radix/custom Logos.
-      logo: <div />,
+      logo: <Icons.LinkedInLogoIcon></Icons.LinkedInLogoIcon>
     },
   ];
 
